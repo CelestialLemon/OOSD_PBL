@@ -1,6 +1,7 @@
 #include<string>
+using std::string;
 
-bool ConnectToDatabase(std::string url)
+bool ConnectToDatabase(string url)
 {
     //connect to database at given url
     //return true if sucessful
